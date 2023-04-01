@@ -1,0 +1,29 @@
+* {
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+.contact-items img {
+	height: 25px;
+}
+
+.contacts {
+	height: 30px;
+}
+
+.contact-items {
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 25px;
+}
