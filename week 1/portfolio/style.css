@@ -3,17 +3,91 @@
 	font-size: 20px;
 }
 
+.main {
+	
+	width: 80%;
+	margin: auto;
+	background-color: #F0F0F0;
+}
+
+/* Style the navbar */
+#navbar {
+	width: 100%;
+	overflow: hidden;
+	background-color: #333;
+	top: 0;
+	position: sticky;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 19px;
+	text-decoration: none;
+  }
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  }
+
+.about {
+	/*background-color: beige;*/
+}
+
 .contact-items img {
 	height: 25px;
+	padding-right: 10px;
 }
 
 .contacts {
-	height: 30px;
+	width: 100%;
+	height: 50px;
+	display: inline-flex;
+	vertical-align: middle;
+	/*background-color: darkcyan;*/
+	margin: auto;
 }
 
 .contact-items {
-	line-height: 30px;
-	vertical-align: middle;
+	line-height: 50px;
+	vertical-align: auto;
+	margin: auto;
+	text-align: center;
+}
+
+.video_intro {
+	width: 100%;
+	height: auto;
+}
+
+.video_intro video {
+	width: 70%;
+	height: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+.work {
+	/*background-color: darkgrey;*/
+}
+
+.publication {
+	/*background-color: gainsboro;*/
+}
+
+.project {
+	/*background-color: darkseagreen;*/
+}
+
+.skill {
+	/*background-color: honeydew;*/
+}
+
+.education {
+	/*background-color: navajowhite;*/
 }
 
 h1 {
@@ -26,4 +100,8 @@ h2 {
 
 h3 {
 	font-size: 25px;
+}
+
+html {
+	/*background-color: lightgray;*/
 }
